@@ -1,6 +1,8 @@
 # cypress-post-message
 
-This Cypress example shows how to spy on `window.postMessage` calls. See [spec.cy.js](./cypress/e2e/spec.cy.js)
+This Cypress example shows how to spy on `window.postMessage` calls.
+
+- 📺 [Spy On The Window PostMessage Calls](https://youtu.be/l-1Ti4CbXxM) and see the [spec.cy.js](./cypress/e2e/spec.cy.js)
 
 ## Small print
 

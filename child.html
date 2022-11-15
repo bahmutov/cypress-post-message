@@ -1,0 +1,9 @@
+<body>
+  <h1>Child window</h1>
+  <script>
+    setTimeout(() => {
+      window.parent.postMessage('one')
+      window.parent.postMessage('two')
+    }, 1000)
+  </script>
+</body>

@@ -1,12 +1,9 @@
 <body>
-  <h1>Top window</h1>
+  <h1>Parent window</h1>
+  <iframe src="child.html"></iframe>
   <script>
     window.addEventListener('message', (e) => {
       console.log('got message', e)
     })
-    setTimeout(() => {
-      window.postMessage('one')
-      window.postMessage('two')
-    }, 1000)
   </script>
 </body>
