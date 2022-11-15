@@ -1,0 +1,13 @@
+<body>
+  <h1>Top window</h1>
+  <p>This window has an iframe embedded inside</p>
+  <script>
+    window.addEventListener('message', (e) => {
+      console.log('got message', e)
+    })
+    setTimeout(() => {
+      window.postMessage('one')
+      window.postMessage('two')
+    }, 1000)
+  </script>
+</body>
